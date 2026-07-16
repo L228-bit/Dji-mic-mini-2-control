@@ -1,0 +1,37 @@
+# Rust
+/target
+**/*.rs.bk
+.cargo-home/
+
+# Node / frontend
+node_modules/
+gui/dist/
+.npm-cache/
+
+# Tauri generated
+gui/src-tauri/gen/
+gui/src-tauri/target/
+native/**/build/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editor / IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Release artifacts (produced by build-release.sh / .ps1)
+/Release
+/outputs
+/work
